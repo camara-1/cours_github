@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CONTACT</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<form action="process.js">
+			<div class="menu-connexion">
+				<label for="name"> Nom </label>
+				<input type="texte" name="name" id="name" placeholder="Votre nom..." required>
+			</div></br>
+			<div class="menu-connexion">
+				<label for="prenom"> Prénom </label>
+				<input type="texte" name="prenom" id="prenom" placeholder="Votre prénom..." required>
+			</div></br>
+			<div class="menu-connexion">
+				<label for="sex"> Sexe </label>
+				<input type="radio" name="sex" id="sex" value="man"> Homme
+				<input type="radio" name="sex" id="sex" value="woman"> Femme
+			</div></br>
+			<div class="menu-connexion">
+				<label for="brithdate">Date de naissance</label>
+				<select name="brithdate" id="brithdate">
+					<option value="1990"> 1990</option>
+					<option value="1991"> 1991</option>
+					<option value="1992"> 1992</option>
+					<option value="1993"> 1993</option>
+					<option value="1994"> 1994</option>
+					<option value="1995"> 1995</option>
+				</select>
+			</div></br>
+			<div class="menu-connexion">
+				<label for="email"> E-mail </label>
+				<input type="email" name="name" id="email">
+			</div></br>
+			<div class="menu-connexion">
+				<label for="password"> Mot de passe </label>
+				<input type="password" name="password" id="password">
+			</div></br>
+			<div>
+				<label for="message"> Message </label>
+				<textarea id="message" name="message" ></textarea>
+			</div></br>
+			<input type="submit" value="Envoyer">
+			
+		</form>
+
+</body>
+</html>

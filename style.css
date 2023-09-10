@@ -1,0 +1,102 @@
+h2{
+	color: white;
+	text-align: center;
+	padding: 100px;
+	height: 350px;
+
+}
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body {font-family: 'Comic sa', Arial, sans-serif;
+	#background-image: url("img/bateau.jpeg");
+	background-size: cover;
+	background-position: 10 left;
+	background-repeat: no-repeat;
+	
+}
+a {text-decoration: none;}
+.menu-navi { 
+	background-color: #1a1a1a;
+	color: #FFF; 
+	display: flex;
+	justify-content:space-between ;
+	padding: 16px;
+}
+.menu-navi ul{
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+.menu-navi ul li a {
+	color: #FFF;
+	padding: 12px;
+} 
+.menu-navi ul li a:hover {
+	background-color:#FFF ;
+	color: #1a1a1a;
+	border-radius: 4px;
+}
+.menu-connexion{
+	padding: 200px;
+	text-align: center;	
+}
+form ul li a {
+	color: white;
+	text-align: center;
+
+}
+.tableau-style{
+	border-collapse: collapse;
+	min-width: 400px;
+	width: auto;
+	box-shadow: 0px 5px 50px rgba(0, 0, 0,0.15);
+	cursor: pointer;
+	border: 2px solid midnightblues;
+	margin: 100px auto;
+	position: absolute;
+		
+}
+thead tr{
+	background-color: midnightblue;
+	color: #FFF;
+	text-align: left;
+}
+tr, td {
+	padding: 5px 10px;
+	color: black;
+	background-color: #fff;
+}
+tbody tr, td, th{
+	border: 2px solid #ddd;
+}
+tbody,tr:nth-child(even){
+	background-color: #f3f3f3;
+}
+.Ragnar{
+	background-color: blue;
+	position: absolute;
+	padding: 2px 5px;
+	top: 10;
+	left: 500;
+
+}
+.Lagertha{
+	position: absolute;
+	background-color: red;
+	padding:  2px 5px;
+	top: 10px;
+	left: 250px;
+}
+.ivar{
+	position: absolute;
+	background-color: yellow;
+	padding:  2px 5px;
+	top: 10px;
+	left: 550px;
+}
+.Floki{
+	position: absolute;
+	background-color: green;
+	padding:  2px 5px;
+	top: 10px;
+	left: 850px;
+}
